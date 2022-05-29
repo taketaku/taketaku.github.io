@@ -2,13 +2,13 @@ import type { FC } from "react";
 import { RadialProgress } from "react-daisyui";
 import tw from "tailwind-styled-components";
 
-type Props = {
+export type Props = {
   children?: never;
-  percentage: number;
   title: string;
+  percentage: number;
 };
 
-export const Item: FC<Props> = ({ percentage, title }) => {
+export const TechItem: FC<Props> = ({ percentage, title }) => {
   return (
     <Wrapper>
       <div className="mb-8">
