@@ -11,7 +11,7 @@ export const Section: FC<Props> = ({ title, subTitle, children }) => {
   return (
     <Wrapper>
       <div className="container xl:max-w-6xl mx-auto px-4">
-        <header className="text-center mx-auto mb-12 lg:px-20">
+        <header className="text-center mx-auto mb-11 lg:px-20">
           <h2 className="text-2xl leading-normal mb-2 font-bold text-white">
             {title}
           </h2>
@@ -31,5 +31,5 @@ export const Section: FC<Props> = ({ title, subTitle, children }) => {
 };
 
 const Wrapper = tw.div`
-	mb-5
+	mb-12
 `;

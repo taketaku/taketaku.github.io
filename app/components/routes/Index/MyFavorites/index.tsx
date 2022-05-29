@@ -1,7 +1,7 @@
 import type { FC } from "react";
 
-import { TechItem } from "@/components/routes/Index/MyFavorites/TechItem";
 import { Section } from "@/components/shared/Section";
+import { TechItem } from "@/components/routes/Index/MyFavorites/TechItem";
 
 import { items } from "./data";
 
