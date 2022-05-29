@@ -1,5 +1,4 @@
 import type { MetaFunction } from "@remix-run/node";
-import { Theme } from "react-daisyui";
 import type { LinksFunction } from "@remix-run/node";
 import {
   Links,
@@ -28,12 +27,10 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Theme dataTheme="dark">
-          <Outlet />
-          <ScrollRestoration />
-          <Scripts />
-          <LiveReload />
-        </Theme>
+        <Outlet />
+        <ScrollRestoration />
+        <Scripts />
+        <LiveReload />
       </body>
     </html>
   );

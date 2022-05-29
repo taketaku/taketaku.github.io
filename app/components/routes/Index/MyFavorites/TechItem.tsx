@@ -1,6 +1,7 @@
 import type { FC } from "react";
-import { RadialProgress } from "react-daisyui";
 import tw from "tailwind-styled-components";
+
+import { RadialProgress } from "@/components/shared/RadialProgress";
 
 export type Props = {
   children?: never;
@@ -12,14 +13,7 @@ export const TechItem: FC<Props> = ({ percentage, title }) => {
   return (
     <Wrapper>
       <div className="mb-8">
-        <RadialProgress
-          value={percentage}
-          size={"7rem"}
-          thickness={"0.5rem"}
-          className="bg-accent text-accent-content border-4 border-accent"
-        >
-          {percentage}%
-        </RadialProgress>
+        <RadialProgress value={percentage}>{percentage}%</RadialProgress>
       </div>
       <div className="text-center">
         <p className="text-xl text-white font-bold mb-2">{title}</p>
