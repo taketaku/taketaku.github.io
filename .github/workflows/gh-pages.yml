@@ -41,4 +41,4 @@ jobs:
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
-          external_repository: taketaku/taketakugithub.io
+          external_repository: taketaku/taketaku.github.io
