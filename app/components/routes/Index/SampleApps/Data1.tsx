@@ -11,6 +11,12 @@ export const Data1: FC<Props> = (props) => {
       <p className="mb-4">
         here: <span className="underline">https://taketaku.github.io</span>
       </p>
+      <p className="mb-4">
+        repo:{" "}
+        <span className="underline text-primary">
+          https://github.com/taketaku/taketaku.github.io
+        </span>
+      </p>
       <p>技術構成</p>
 
       <ul className="list-disc ml-3">
