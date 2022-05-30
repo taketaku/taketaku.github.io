@@ -15,7 +15,7 @@ export const items: Props[] = [
   { title: "Vercel", percentage: 70 },
   { title: "AWS", percentage: 50 },
   { title: "GCP", percentage: 50 },
-  { title: "Azure", percentage: 40 },
+  { title: "Azure", percentage: 50 },
   { title: "headless CMS(graphcms/contentful)", percentage: 60 },
   { title: "terraform/kubernetes", percentage: 50 },
 ];

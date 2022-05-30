@@ -1,6 +1,7 @@
 import { MyFavorites } from "@/components/routes/Index/MyFavorites";
 import { Sns } from "@/components/routes/Index/Sns";
 import { Section } from "@/components/shared/Section";
+import { SampleApps } from "@/components/routes/Index/SampleApps";
 
 export default function Index() {
   return (
@@ -10,6 +11,7 @@ export default function Index() {
       </Section>
       <Sns />
       <MyFavorites />
+      <SampleApps />
     </div>
   );
 }
